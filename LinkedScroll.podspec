@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LinkedScroll"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A linked up and down scroll component for iOS in swift"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/heron-newland/LinkedScroll.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/heron-newland/LinkedScroll.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LinkedScrollView/*.swift"
+  s.source_files  = "LinkedScroll/*.swift"
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
