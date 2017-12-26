@@ -31,7 +31,18 @@ LinkedScrollView是一款处理上下联动的使用框架,适配iPhoneX, 并且
  
 		将LinkedScrollView文件夹手动拖入工程即可
 	
-*	 cocoaPods集成(马上完成)
+*	 cocoaPods集成
+
+		platform :ios, '9.0'
+		
+		target 'testMyPods' do
+		
+		  use_frameworks!
+		
+		pod 'LinkedScroll'
+		
+		end
+
 
 ### 使用方法
 *	 方式一:继承自`HLLScrollViewController`, 实现数据源方法即可, 使用方式可UITableViewController一致, 具体代码如下:
