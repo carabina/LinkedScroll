@@ -124,43 +124,43 @@ LinkedScrollView是一款处理上下联动的使用框架,适配iPhoneX, 并且
 		
 >*	isIndicatorLineHidden: 是否文字下方的指示线是否隐藏, 默认为false(不隐藏)
 
->>![无指示线](https://github.com/heron-newland/LinkedScrollView/blob/master/img/noIndicator.png)
+>>![无指示线](https://github.com/heron-newland/LinkedScroll/blob/master/img/noIndicator.png)
 
->>![有线](https://github.com/heron-newland/LinkedScrollView/blob/master/img/hasIndicator.png)
+>>![有线](https://github.com/heron-newland/LinkedScroll/blob/master/img/hasIndicator.png)
 
 >*	highlightTextColor: 文字高亮颜色, 指示线的颜色默认和高亮文字颜色一致也可以通过scrollTitleView.lineView.backgroundColor属性自行修改
 
 >*	normalTextColor: 文字普通颜色
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/changeColor.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/changeColor.png)
 
 >*	titleView:整个标题视图, 是` [HLLTitleView]`类型
 
 >*	titleViewHeight: 标题视图的高度
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/changeH.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/changeH.png)
 
 >*	lineHeight: 指示线的高度
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/lineH.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/lineH.png)
 
 >*	textScaleRate:当前选中label放大的增量, 如果设为0.0则不缩放, 默认值为0.0, 不要设置太大, 值太大由于高度不够文字会显示不全
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/textScale.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/textScale.png)
 
 >*	textFont:title字体大小, titleLabel的宽度会随着字体的变化而变化, 但是高度不会变化, 通过`titleViewHeight`属性设置适当的高度
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/textFont.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/textFont.png)
 
 > *	lineView:指示线, 可以自定义指示线, 或者通过改变其属性定义自己的效果
 
 > *	rightView: titleView右边的视图, 比如可以定义一个按钮, 点击查看所有条目, 如下图中的加号
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/right.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/right.png)
 
 > *	isMarkHiddenByTap: title的标记是否在点击之后消失, 如果为true那么标记视图在点击后会消失, 下图中红点就是标记
 
->>![](https://github.com/heron-newland/LinkedScrollView/blob/master/img/mark.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/mark.png)
  
 > *	margin: 每title之间的间距
 
@@ -179,7 +179,7 @@ LinkedScrollView是一款处理上下联动的使用框架,适配iPhoneX, 并且
         sView.scrollTitleView.lineHeight = 44
         sView.scrollTitleView.lineView.backgroundColor = UIColor.blue
 
->>[](https://github.com/heron-newland/LinkedScrollView/blob/master/img/effect1.png)
+>>![](https://github.com/heron-newland/LinkedScroll/blob/master/img/effect1.png)
 
 
 *	自定义titleView的方法(如果不设置自定义title, title里面只有一个label), 自定义的方式如下:
